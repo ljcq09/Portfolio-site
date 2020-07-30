@@ -117,7 +117,7 @@ class  MoreAboutPage extends React.Component {
                                 by providing them with information about living in the city and offering mentorship<br/>
                                 for their coursework.</p><br/>
                                 
-                            <p className="g-more-about-list">Weekly mentoring sessions were hold for the students to express their concerns about<br/> 
+                            <p className="g-more-about-list">Weekly mentoring sessions were held for the students to express their concerns about<br/> 
                                 their tutorials and extra sessions were offered to review any specific topic<br/>
                                 </p></p>,
                 brand: uni_logo,
@@ -129,7 +129,7 @@ class  MoreAboutPage extends React.Component {
                 period: 'Sept 2018 - Apr 2019',
                 location: 'Manchester, United Kingdom',
                 description:<p className="g-more-about-list">The task was to run weekly small sessions for a group of seven people to help them<br/> 
-                                to adquire basic Spanish language skills in a way they are able to survive a day in a<br/>
+                                to acquire basic Spanish language skills in a way they are able to survive a day in a<br/>
                                 Hispanic country</p>,
                 brand: ling_logo,
                 complink: "https://manchesterstudentsunion.com/groups/linguistics-society-5251"
@@ -154,7 +154,9 @@ class  MoreAboutPage extends React.Component {
     render(){
     return(
         <div >
+           
         <Content >
+        <br/><br/><br/><br/><br/>
             <Row className="g-more-about-line">
                 <h2>Experience</h2><br/>
             </Row><br/>

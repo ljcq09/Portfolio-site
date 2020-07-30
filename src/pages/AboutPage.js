@@ -43,7 +43,7 @@ class AboutPage extends React.Component{
                                engineering student at The University of Manchester in the United Kingdom 
                                <img src={ukflag} alt="ManUni" width="28" height="21" className="g-image-emoji"></img>.
                                My background is at the intersection of computer science 💻 and electronic and electrical 
-                               engineering &#128268; which have allowed me to gain a diverse range of interests and skills
+                               engineering 💡 which have allowed me to gain a diverse range of interests and skills
                                and have technical knowledge spanning a variety of engineering areas ⚙️.
                             </p>
                             <br/>
@@ -58,24 +58,25 @@ class AboutPage extends React.Component{
                                 dancing Salsa and Bachata &#128378;&#128131;, obsessing over the Champions league &#x26BD;, attempting to 
                                 learn to play guitar  &#127928; or lost in my thoughts on a walk &#128694;.
                             </p>
-                            <br/>
+                            
                         </Col >
                         <Col className="g-align-right" fluid = {true}>
                             <img className ="g-me-image" src= {this.props.photo} alt= "me" />
                         </Col>
                     </Row>
-                    <br /><br /><br />
+                    <br/><br/>
+                    
                     
 
                 </Content>
                 
-                <Jumbotron className="g-background-pages">
+                <Jumbotron className="g-background-pages p-0">
                 
                     <div className="g-button-wrapper "> 
                         {
                             this.state.show? <div><MoreAboutPage/></div> : null
                         }
-                    <Button  size="lg" variant="outline-secondary" onClick={()=>{this.setState({show:!this.state.show})}}>
+                    <Button  active size="lg" variant="outline-secondary" onClick={()=>{this.setState({show:!this.state.show})}}>
                         { this.state.show? 'Enough about me!' : 'More about me?'}
                         
                     </Button>
