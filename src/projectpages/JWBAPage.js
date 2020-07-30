@@ -18,7 +18,7 @@ const imgs_labels =[[jwba, "JWBA Cover Page"],
 const vids_labels =[["https://www.youtube.com/embed/KtNU6FWV3gA","JWBA in action"]]
 
 const abouttext =   <p> <p>This project was developed as a team of three for the <strong>Up, Out, and Away!</strong> 
-                        challenge proposed by NASA. The challenge consisted to develop a mini game to tell the story
+                        challenge proposed by NASA. The challenge consisted of developing a mini game to tell the story
                         of the construction of NASA's most powerful and complex Space Telescope ever, James Webb, and 
                         this had to be done in <strong>a weekend.</strong></p>
 
@@ -29,7 +29,7 @@ const abouttext =   <p> <p>This project was developed as a team of three for the
                         'mirror minerals' keys and escape from a door at the end. For this mini project I used basic C# 
                         language and the windows forms (.NET Framework) for game development. This was a very challenging 
                         learning experience for me as it was the first time I ever used C#. However, it was also an enriching 
-                        and rewarding experience handled with a lot of enthuasiasm </p>
+                        and rewarding experience handled with a lot of enthusiasm </p>
 
                         <p>Note: none of us is a graphics designer and given the length of the event (a weekend) we did
                         our best to prototype this project. </p>

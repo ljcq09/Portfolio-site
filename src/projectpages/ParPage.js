@@ -11,8 +11,8 @@ const vids_labels =[["https://www.youtube.com/embed/sY-bf9Dl2e4","Automated Repo
 const abouttext =   <p> <p>The idea of this project was to create a tool to analyse the data of the software components in .mat format
                         of a self-driving car and compare it to a list of metrics to measure performance.</p>
 
-                        <p>I worked with three other people for this project, and there were four software components to inspect. My 
-                        contributions here was to help with the metrics definition for one of the components and to develop a report 
+                        <p>I worked with three other people on this project, and there were four software components to inspect. My 
+                        contribution here was to help with the metrics definition for one of the components and to develop a report 
                         generator function with the challenge of using MATLAB with no toolboxes. The solution I found was to create 
                         an Automation server for MS Word so I can use VBA(Visual Basic for Applications) commands.</p> <br/>
 

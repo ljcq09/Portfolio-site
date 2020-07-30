@@ -42,7 +42,7 @@ class AboutPage extends React.Component{
                                I am an Ecuadorian-born<img src={ecuflag} alt="ManUni" width="27" height="23" className="g-image-emoji"></img> mechatronic 
                                engineering student at The University of Manchester in the United Kingdom 
                                <img src={ukflag} alt="ManUni" width="28" height="21" className="g-image-emoji"></img>.
-                               My bakcground is at the intersection of computer science 💻 and electronic and electrical 
+                               My background is at the intersection of computer science 💻 and electronic and electrical 
                                engineering &#128268; which have allowed me to gain a diverse range of interests and skills
                                and have technical knowledge spanning a variety of engineering areas ⚙️.
                             </p>
