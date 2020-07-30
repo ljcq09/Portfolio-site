@@ -24,13 +24,13 @@ class  MoreAboutPage extends React.Component {
                 jobtitle: 'Engineering Intern',
                 period: 'Jul 2019 - Jun 2020',
                 location: 'Coventry, United Kingdom',
-                description:    <p> Supported automotive software activities with strong focus on MATLAB and Simulink <br/>
-                                    Activites Included:<ul className="g-more-about-list"> 
-                                                            <li>Sensors Data Analysis and Sotware testing</li>
-                                                            <li>GUI development with Python</li>
-                                                            <li>Report Automation with Word VBA and MATLAB</li>
-                                                        </ul>
-                                </p>,
+                description:<p> Supported automotive software activities with strong focus on MATLAB and Simulink <br/>
+                            Activites Included:<ul className="g-more-about-list"> 
+                                                    <li>Sensors Data Analysis and Sotware testing</li>
+                                                    <li>GUI development with Python</li>
+                                                    <li>Report Automation with Word VBA and MATLAB</li>
+                                                </ul>
+                            </p>,
                 brand: avl_logo,
                 complink: "https://www.avl.com/web/avl-uk/home"
             },
@@ -39,9 +39,9 @@ class  MoreAboutPage extends React.Component {
                 jobtitle: 'Manchester Calling Campaign',
                 period: 'Mar 2018 - Jun 2018',
                 location: 'Manchester, United Kingdom',
-                description:    <p className="g-more-about-list"> Had an informal conversation with prospective students across the world providing<br/>
-                                    them with information about studying and living in Manchester
-                                </p>,
+                description:<p className="g-more-about-list"> The role here was to have an informal conversation with prospective students across<br/>
+                            the world providing them with information about studying and living in Manchester<br/> 
+                            </p>,
                 brand: uni_logo,
                 complink: "https://www.manchester.ac.uk/study/international/contact-international-team/"
             },
@@ -52,14 +52,14 @@ class  MoreAboutPage extends React.Component {
                 jobtitle: 'BEng Mechatronic Engineering with Industrial Experience',
                 period: 'Sep 2017 - Jul 2021',
                 location: 'Manchester, United Kingdom',
-                description: <p>Coursework focused on electronics, mathematics for robotics, embedded software<br/>
-                                and microcontrollers, CAD design and control systems<br/>    
+                description:<p className="g-more-about-list">Coursework focused on electronics, mathematics for robotics, embedded software<br/>
+                                and microcontrollers, CAD design and control systems<br/><br/> 
                                 First year courses include: <ul className="g-more-about-list">
                                                                 <li>C Programming (83%)</li>
                                                                 <li>Mathematics (84%)</li>
                                                                 <li>Microcontroller Engineering (77%), </li>
                                                                 <li>Electronics Project (77%)</li>
-                                                            </ul>
+                                                            </ul><br/>
                                 Second year courses include:<ul className="g-more-about-list"> 
                                                                 <li>Embedded Systems Project (76%)</li>
                                                                 <li>Control Systems I (83%)</li>
@@ -76,24 +76,24 @@ class  MoreAboutPage extends React.Component {
                 jobtitle: 'International Foundation in Science and Engineering',
                 period: 'Sep 2016 - Jul 2017',
                 location: 'Manchester, United Kingdom',
-                description:    <p>International Foundation Year Program  <br/>
-                                    A-levels:   <ul className="g-more-about-list">
-                                                    <li>Further Mathematics (A*)</li>
-                                                    <li>Mathematics (A*)</li>
-                                                    <li>Physics (A*)</li>
-                                                </ul>
-                                </p>,
+                description:<p>International Foundation Year Program  <br/>
+                                A-levels:   <ul className="g-more-about-list">
+                                                <li>Further Mathematics (A*)</li>
+                                                <li>Mathematics (A*)</li>
+                                                <li>Physics (A*)</li>
+                                            </ul>
+                            </p>,
                 brand: into_logo,
                 complink: "https://www.intostudy.com/en/universities/into-manchester/courses/international-foundation-in-science-and-engineering"
             },
-
 
             ecusoctag: {
                 company: 'University of Manchester Ecuadorian Society (UMES)',
                 jobtitle: 'Treasurer',
                 period: 'Sep 2020 - Jun 2021',
                 location: 'Manchester, United Kingdom',
-                description:  <p>Voted to fulfill the treasurer rol for the 2020-2021 academic year </p>,
+                description:<p className="g-more-about-list">Responsible for the finantial planning and budgeting of this Society for the 2020-2021<br/> 
+                                academic year</p>,
                 brand: umes_logo,
                 complink: "https://manchesterstudentsunion.com/groups/ecuadorian-society"
             },
@@ -102,7 +102,9 @@ class  MoreAboutPage extends React.Component {
                 jobtitle: 'Visitor Engagement Volunteer',
                 period: 'Oct 2018 - Apr 2019',
                 location: 'Manchester, United Kingdom',
-                description: <p>Supported the Electricity exhibition by providing information  </p>,
+                description:<p className="g-more-about-list">Assisting the Electricity exhibition of the museum with the objective of engaging as<br/>
+                                many visitors as possible by provide excellent service by manteining general <br/>
+                                knowledge of the events</p>,
                 brand: museum_logo,
                 complink: "https://www.scienceandindustrymuseum.org.uk/"
             },
@@ -111,7 +113,13 @@ class  MoreAboutPage extends React.Component {
                 jobtitle: 'Peer Assisted Study Session (PASS) Leader',
                 period: 'Sept 2018 - Apr 2019',
                 location: 'Manchester, United Kingdom',
-                description: 'pass description',
+                description:<p><p className="g-more-about-list">The role was to support a group of 20 first year students to adapt to University life<br/>
+                                by providing them with information about living in the city and offering mentorship<br/>
+                                for their coursework.</p><br/>
+                                
+                            <p className="g-more-about-list">Weekly mentoring sessions were hold for the students to express their concerns about<br/> 
+                                their tutorials and extra sessions were offered to review any specific topic<br/>
+                                </p></p>,
                 brand: uni_logo,
                 complink: "http://www.peersupport.manchester.ac.uk/how-do-i-get-involved/how-do-i-become-a-pass-leader/pass-leader-role-profile/"
             },
@@ -120,7 +128,9 @@ class  MoreAboutPage extends React.Component {
                 jobtitle: 'Spanish tutor',
                 period: 'Sept 2018 - Apr 2019',
                 location: 'Manchester, United Kingdom',
-                description: 'spanish description',
+                description:<p className="g-more-about-list">The task was to run weekly small sessions for a group of seven people to help them<br/> 
+                                to adquire basic Spanish language skills in a way they are able to survive a day in a<br/>
+                                Hispanic country</p>,
                 brand: ling_logo,
                 complink: "https://manchesterstudentsunion.com/groups/linguistics-society-5251"
             },
@@ -132,7 +142,9 @@ class  MoreAboutPage extends React.Component {
                 jobtitle: '"High Performance for Technical and Third level Careers" Scholarship',
                 period: <p className="g-align-right">awarded Jul 2016</p>,
                 location: 'Quito, Ecuador',
-                description: 'spanish description',
+                description:<p className="g-more-about-list">Scholarship awarded for outstanding perfomance in the National exam for Higher<br/>
+                                Education of the Government of Ecuador to continue my education in the world's <br/>
+                                top Universities</p>,
                 brand: senescyt_logo,
                 complink: "https://www.educacionsuperior.gob.ec/la-secretaria/"
             },
