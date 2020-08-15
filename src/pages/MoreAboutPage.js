@@ -90,9 +90,9 @@ class  MoreAboutPage extends React.Component {
             ecusoctag: {
                 company: 'University of Manchester Ecuadorian Society (UMES)',
                 jobtitle: 'Treasurer',
-                period: 'Sep 2020 - Jun 2021',
+                period: 'Aug 2020 - Ongoing',
                 location: 'Manchester, United Kingdom',
-                description:<p className="g-more-about-list">Responsible for the finantial planning and budgeting of this Society for the 2020-2021<br/> 
+                description:<p className="g-more-about-list">Responsible for the financial planning and budgeting of this Society for the 2020-2021<br/> 
                                 academic year</p>,
                 brand: umes_logo,
                 complink: "https://manchesterstudentsunion.com/groups/ecuadorian-society"
@@ -102,9 +102,9 @@ class  MoreAboutPage extends React.Component {
                 jobtitle: 'Visitor Engagement Volunteer',
                 period: 'Oct 2018 - Apr 2019',
                 location: 'Manchester, United Kingdom',
-                description:<p className="g-more-about-list">Assisting the Electricity exhibition of the museum with the objective of engaging as<br/>
-                                many visitors as possible by provide excellent service by manteining general <br/>
-                                knowledge of the events</p>,
+                description:<p className="g-more-about-list">Assisting the Electricity exhibition of the museum by engaging as many visitors<br/>
+                                as possible and being the first point of contact to ensure all the visitors's queries<br/>
+                                and concerns are solve directing them to the right sources of information and supportd</p>,
                 brand: museum_logo,
                 complink: "https://www.scienceandindustrymuseum.org.uk/"
             },

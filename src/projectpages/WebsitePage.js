@@ -19,8 +19,8 @@ const abouttext =   <p> <p>The idea to do this project was born of my curiosity 
                         and the need of having a space to showcase some of my work as a Mechatronic 
                         Engineering student.</p>
 
-                        <p>I've used the <strong>React</strong> library for Javascript together with HTML, CSS and
-                        Bootstrap to build the Front-End of my Website and I've used nodejs with expressjs to build 
+                        <p>I've used the <strong>React</strong> library for JavaScript together with HTML, CSS and
+                        Bootstrap to build the Front-End of my Website and I've used NodeJS with ExpressJS to build 
                         a little API that allowed me to implement a Contact Page to send emails to my personal account
                              </p>
 
@@ -31,7 +31,7 @@ const techsheet = [ 'UI design',
                     'CSS- Media query',
                     'HTML',
                     'nodemon',
-                    'node.js - express.js, cors',
+                    'Node.js - Express.js, cors',
                     '@sendgrid/mail']
 
 const resources =["References available upon request"]
