@@ -5,7 +5,6 @@ import Content from '../components/Content';
 import {Button, Row, Col,Jumbotron} from 'react-bootstrap';
 
 import MoreAboutPage from '../pages/MoreAboutPage'
-import RightButton from '../components/RightButton'
 import LeftButton from '../components/LeftButton'
 
 import ecuflag from '../assets/images/emoji/ecuflag.jpeg'
@@ -13,7 +12,6 @@ import ukflag from '../assets/images/emoji/ukflag.jpg'
 import avllogo from '../assets/images/about/avllogo.png'
 
 
-const GoRight="contact"
 const GoLeft="projects"
 
 
@@ -32,7 +30,6 @@ class AboutPage extends React.Component{
             <div className="g-background-pages g-hero-color">
                 <Hero title={this.props.title} subTitle={this.props.subTitle}/>
                 <br/><br/><br/>
-                <div className="g-right-button"><RightButton GoRight={GoRight}/></div>
                 <div className="g-left-button"><LeftButton GoLeft={GoLeft}/></div>
                 
                 <Content >

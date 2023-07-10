@@ -10,16 +10,15 @@ import './App.css';
 import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
 import MoreAboutPage from './pages/MoreAboutPage';
 import LandingPage from './pages/LandingPage';
 
-import BuggyPage from './projectpages/BuggyPage';
-import ClockAlarmPage from './projectpages/ClockAlarmPage';
-import DemoCarPage from './projectpages/DemoCarPage';
-import ParPage from './projectpages/ParPage';
-import JWBAPage from './projectpages/JWBAPage';
-import WebsitePage from './projectpages/WebsitePage';
+import BuggyPage from './pages/BuggyPage';
+import ClockAlarmPage from './pages/ClockAlarmPage';
+import DemoCarPage from './pages/DemoCarPage';
+import ParPage from './pages/ParPage';
+import JWBAPage from './pages/JWBAPage';
+import WebsitePage from './pages/WebsitePage';
 
 
 import facebook_icon from './assets/images/sidebar/facebook_icon.png';
@@ -45,7 +44,6 @@ class App extends React.Component {
           headerLinks: [
               { title: 'Home', path: '/projects' },
               { title: 'About', path: '/about' },
-              { title: 'Contact', path: '/contact'},
  
           ],
           landing: {
@@ -65,9 +63,6 @@ class App extends React.Component {
               title: 'Who\'s this guy?',
               subTitle: 'A short glimpse into my life:',
               photo: me
-          },
-          contact: {
-              title: 'Get in touch'
           },
           moreabout:{
               title: 'More About Me'
@@ -119,7 +114,6 @@ class App extends React.Component {
                 <Nav className= "ml-auto">
                     <Link className="nav-link" to ="/projects"><Badge variant="outline-secondary">Portfolio</Badge></Link>
                     <Link className="nav-link" to ="/about"><Badge variant="outline-secondary">About</Badge></Link>
-                    <Link className="nav-link" to ="/contact"><Badge variant="outline-secondary">Contact</Badge></Link>
                 </Nav>
               </Navbar.Collapse>
           </Navbar>
@@ -137,7 +131,6 @@ class App extends React.Component {
           <Route path="/about" exact render ={() => <AboutPage  title= {this.state.about.title}
                                                                 subTitle={this.state.about.subTitle} 
                                                                 photo= {this.state.about.photo}  />} />
-          <Route path="/contact" exact render ={() => <ContactPage title= {this.state.contact.title}  />} />
           <Route path="/moreabout" exact render ={() => <MoreAboutPage title= {this.state.moreabout.title}  />} />
 
 

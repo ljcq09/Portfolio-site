@@ -22,11 +22,11 @@ function Footer() {
                             Feel free to contact me via email at 
                             <a className= "g-word-link font-weight-bold"href="mailto:leninj09@gmail.com">&nbsp;leninj09@gmail.com</a>
                     </Row>
-                    <Row className = "justify-content-center g-Footer-body">
+                    {/* <Row className = "justify-content-center g-Footer-body">
                             or drop a line in the form at the
                             <a className= "g-word-link font-weight-bold" href="/contact">&nbsp;Contact Page</a>
                     </Row>
-                    
+                     */}
 
                 </Col>
             </Container>
