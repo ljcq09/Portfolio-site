@@ -32,7 +32,7 @@ function HeroProj(props){
                             <Carousel>
 
                                 {props.vids_labels.map((element, index) => 
-                                    <div key='vid at ${index}' className=" g-custom-carousel"> 
+                                    <div key={'vid at ' + index} className=" g-custom-carousel"> 
                                         <iframe src= {element[0]}
                                                 frameborder="0" 
                                                 className='g-vid'
@@ -50,7 +50,7 @@ function HeroProj(props){
 
 
                                 {props.imgs_labels.map((element, index) => 
-                                    <div key='img at ${index}' className=" g-custom-carousel"> 
+                                    <div key={'img at ' + index} className=" g-custom-carousel"> 
                                         <Image src= {element[0]}/>
                                             <div> 
                                                 <p className="legend">{element[1]}</p>   
@@ -83,7 +83,7 @@ function HeroProj(props){
                             <h3 className="font-weight-light g-projects-text">
                                 <ul>
                                     {props.techsheet.map((element, index) => 
-                                    <div key='vid at ${index}'> 
+                                    <div key={'vid at ' + index}> 
                                         <li>{element}</li>    
                                     </div>)}
                                 </ul>
@@ -94,7 +94,7 @@ function HeroProj(props){
                             <h3 className="font-weight-light g-projects-text">
                                 <ul>
                                     {props.resources.map((element, index) => 
-                                    <div key='res at ${index}'> 
+                                    <div key={'res at ' + index}> 
                                         <li>{element}</li>
                                     </div>)}     
                                         {/* <a className= "g-word-link font-weight-bold" href={props.githublink} >&nbsp;GITHUB</a> */}

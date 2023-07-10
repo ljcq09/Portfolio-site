@@ -168,7 +168,7 @@ class App extends React.Component {
                                                                           githublink= {this.state.clockalarm.githublink}/>} />
           {/* <Redirect from='/' to='/lc'/> */}
           {/* <Route path={new RegExp('^(?!.*(\\/lc)).*$')} exact render={() => <Footer className="g-Footer" />} /> */}
-          <Route path={new RegExp('.*(?!(\/)).((\/\w+)+|\/?)$') } exact render={() => <Footer className="g-Footer" />} />
+          <Route path={new RegExp('.*(?!(/)).((/\\w+)+|/?)$')} exact render={() => <Footer className="g-Footer" />} />
 
         </Container>  
       </Router>  
