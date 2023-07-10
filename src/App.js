@@ -13,12 +13,12 @@ import AboutPage from './pages/AboutPage';
 import MoreAboutPage from './pages/MoreAboutPage';
 import LandingPage from './pages/LandingPage';
 
-import BuggyPage from './pages/BuggyPage';
-import ClockAlarmPage from './pages/ClockAlarmPage';
-import DemoCarPage from './pages/DemoCarPage';
-import ParPage from './pages/ParPage';
-import JWBAPage from './pages/JWBAPage';
-import WebsitePage from './pages/WebsitePage';
+import BuggyPage from './projectpages/BuggyPage';
+import ClockAlarmPage from './projectpages/ClockAlarmPage';
+import DemoCarPage from './projectpages/DemoCarPage';
+import ParPage from './projectpages/ParPage';
+import JWBAPage from './projectpages/JWBAPage';
+import WebsitePage from './projectpages/WebsitePage';
 
 
 import facebook_icon from './assets/images/sidebar/facebook_icon.png';
@@ -161,7 +161,7 @@ class App extends React.Component {
                                                                           githublink= {this.state.clockalarm.githublink}/>} />
           {/* <Redirect from='/' to='/lc'/> */}
           {/* <Route path={new RegExp('^(?!.*(\\/lc)).*$')} exact render={() => <Footer className="g-Footer" />} /> */}
-          <Route path={new RegExp('.*(?!(/)).((/\\w+)+|/?)$')} exact render={() => <Footer className="g-Footer" />} />
+        <Route path={new RegExp('.*(?!(\/)).((\/\w+)+|\/?)$') } exact render={() => <Footer className="g-Footer" />} />
 
         </Container>  
       </Router>  

@@ -4,7 +4,7 @@ import { Container, Row } from 'react-bootstrap';
 
 import Card from '../components/Card';
 
-import website from '../assets/images/proj/website.JPG'
+import website from '../assets/images/proj/website.PNG'
 import demogui from '../assets/images/proj/demogui.JPG';
 import par from '../assets/images/proj/par.png';
 import jwba from '../assets/images/proj/jwba.png';

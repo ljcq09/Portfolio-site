@@ -2,16 +2,19 @@ import React from 'react';
 
 import HeroProj from '../components/HeroProj'
 
-import webs from '../assets/images/proj/website.JPG'
-import webs1 from '../assets/images/proj/website1.JPG'
-import webs2 from '../assets/images/proj/website2.JPG'
-import webs3 from '../assets/images/proj/website3.JPG'
+import webs from '../assets/images/proj/website.PNG'
+import webs1 from '../assets/images/proj/website1.PNG'
+import webs3 from '../assets/images/proj/website3.PNG'
 
 
+// const imgs_labels =[[webs, "Website Landing Page"],
+//                     [webs1, "Website Portfolio Page"],
+//                     [webs3, "Website About Page"],
+//                     [webs2, "Website ContactPage"]]
 const imgs_labels =[[webs, "Website Landing Page"],
                     [webs1, "Website Portfolio Page"],
                     [webs3, "Website About Page"],
-                    [webs2, "Website ContactPage"]]
+]
 
 const vids_labels =[]
 
